@@ -1,0 +1,26 @@
+{
+  "name": "zhaozhaoxiao/jd-union-sdk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zhaozhaoxiao",
+      "email": "417199644@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "classmap": [
+    ],
+    "psr-4": {
+      "JdMediaSdk\\": "src"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.laravel-china.org"
+    }
+  }
+}
