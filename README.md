@@ -1,5 +1,7 @@
 **京东联盟SDK**
 
+本项目由 yumufeng 的项目修改，如有需要可以访问原repository：[链接](https://github.com/yumufeng/jd-union-sdk "链接")
+
 京东联盟SDK，基于新版的
 
 PHP =>7.0
