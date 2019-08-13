@@ -86,7 +86,9 @@ class Link extends JdGateWay
         if (!empty($conponUrl)) {
             $params['couponUrl'] = $conponUrl;
         }
-        return $this->send('jd.union.open.promotion.bysubunionid.get', $params);
-
+        $reqParams = [
+            'promotionCodeReq' => $params,
+        ];
+        return $this->send('jd.union.open.promotion.bysubunionid.get', $reqParams);
     }
 }
