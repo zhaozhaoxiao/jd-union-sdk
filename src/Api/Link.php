@@ -91,4 +91,5 @@ class Link extends JdGateWay
         ];
         return $this->send('jd.union.open.promotion.bysubunionid.get', $reqParams);
     }
+    
 }
